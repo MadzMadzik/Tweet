@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #C39797;
+  font-family: 'Courier';
+}
+
+main {
+  height: 100vh;
+}
+
+main,
+.box,
+a {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px;
+}
+
+a,
+button {
+  /*background-color: #460b75;*/
+  background: linear-gradient(#460b75, #FB87BF);
+  border-radius: 60px;
+  font-family: 'Courier New';
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+}
